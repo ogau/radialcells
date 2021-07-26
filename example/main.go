@@ -59,17 +59,3 @@ func main() {
 		panic(err)
 	}
 }
-
-// func main() {
-// 	gridsteps := []int{3, 5, 7, 10, 25, 50, 75, 100, 150, 200}
-// 	for _, gridstep := range gridsteps {
-// 		rc := NewRadialCells(points, width, height, float32(gridstep))
-
-// 		t := time.Now()
-// 		N := 25000
-// 		for i := 0; i < N; i++ {
-// 			_ = rc.RadiusQuery(width/2, height/2, radius)
-// 		}
-// 		fmt.Println(gridstep, float64(time.Since(t).Nanoseconds())/float64(N))
-// 	}
-// }
