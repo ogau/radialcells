@@ -30,7 +30,7 @@ func randpoints(width, height, N int) []Point {
 func main() {
 	const width, height = 2000, 1400
 	const gridstep = 78
-	const npts = 400000
+	const npts = 300000
 
 	points := randpoints(width, height, npts)
 
