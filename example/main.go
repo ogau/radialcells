@@ -58,4 +58,5 @@ func main() {
 	if err := saveImage(cv.img, "test.png"); err != nil {
 		panic(err)
 	}
+
 }
