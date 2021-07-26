@@ -52,7 +52,7 @@ func main() {
 	draw(width/2, height/2, 222)
 	draw(-777/2, 0, 777)
 	draw(width+314/2, height-314/2, 314)
-	draw(6*gridstep, 13*gridstep, gridstep/3)
+	draw(6*gridstep, 13*gridstep, gridstep)
 	draw(6*gridstep+gridstep/2, 15*gridstep+gridstep/2, gridstep/2)
 
 	if err := saveImage(cv.img, "test.png"); err != nil {
