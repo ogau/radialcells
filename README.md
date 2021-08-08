@@ -1,6 +1,7 @@
 # RadialCells
 #### Fast radius nearest neighbors search on 2d plane
 It is based on my method of exact rasterization of a circle
+
 Usage example (also in ./example folder):
 ```go
 package main
